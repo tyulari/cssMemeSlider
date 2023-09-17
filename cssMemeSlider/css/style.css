@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -88,7 +88,7 @@ body{
 
 .text_container{
     height: 3rem;
-    width: 2.5rem;
+    width: 3rem;
     overflow: hidden;
 }
 
