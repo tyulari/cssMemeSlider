@@ -85,6 +85,30 @@ body{
     border-color: white;
 }
 
+
+.text_container{
+    height: 3rem;
+    width: 2.5rem;
+    overflow: hidden;
+}
+
+.text{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    transition: all 3s ease;
+}
+
+.message{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.slider_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
 #img_1:checked ~ .img_slider{
     margin-left: 0;
  }
