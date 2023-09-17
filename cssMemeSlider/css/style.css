@@ -89,18 +89,20 @@ body{
 .text_container{
     height: 3rem;
     width: 3rem;
+    /* border: solid #453c3c 0.2rem; */
     overflow: hidden;
 }
 
 .text{
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     align-items: center;
     transition: all 3s ease;
 }
 
 .message{
-    margin-right: 1rem;
+    width: 2.26rem;
+    margin-right: 0.75rem;
     margin-top: 1rem;
 }
 
@@ -135,19 +137,19 @@ body{
 }
 
 #img_2:checked ~ .slider_footer .text_container .text{
-    margin-left: -3.2rem;
+    margin-left: -3rem;
 }
 
 #img_3:checked ~ .slider_footer .text_container .text{
-    margin-left: -6.4rem;
+    margin-left: -6rem;
 }
 
 #img_4:checked ~ .slider_footer .text_container .text{
-    margin-left: -9.6rem;
+    margin-left: -8.7rem;
 }
 
 #img_5:checked ~ .slider_footer .text_container .text{
-    margin-left: -12.8rem;
+    margin-left: -12rem;
 }
 
 #img_1:checked ~ .slider_footer .dots #label1{
