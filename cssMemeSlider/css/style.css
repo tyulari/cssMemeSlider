@@ -165,3 +165,31 @@ body{
 #img_5:checked ~ .slider_footer .dots #label5{
     background-color:rgb(181, 159, 167);
 }
+
+@media(max-width: 500px){
+
+    /* .slider_item{
+        height: 100%;
+    } */
+
+    .app{
+        padding: 3rem;
+        overflow: hidden;
+        border-radius: 0.5rem;
+    }
+
+    .slider_list{
+        gap: 1rem;
+    }
+
+    .slider_footer{
+        display:flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .dots{
+        justify-content: center;
+    }
+
+}
